@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.API", "AzureDevOps.API\AzureDevOps.API.csproj", "{E0DB2924-3AAE-4BE4-B3C2-EA0314A8C665}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Domain", "AzureDevOps.Domain\AzureDevOps.Domain.csproj", "{B097A317-FD20-4414-AC18-7F7588578924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Repositories", "AzureDevOps.Repositories\AzureDevOps.Repositories.csproj", "{F00A28D3-DE25-4C54-BE37-367CAA917CAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Services", "AzureDevOps.Services\AzureDevOps.Services.csproj", "{094B216F-C30B-46CA-B337-AD6F27AECA2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Tests", "AzureDevOps.Tests\AzureDevOps.Tests.csproj", "{E0269FCF-316A-4AD3-B04B-A2B75FD79A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3D3592A-79C1-481F-A2DD-336D6D02BB17}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0DB2924-3AAE-4BE4-B3C2-EA0314A8C665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DB2924-3AAE-4BE4-B3C2-EA0314A8C665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DB2924-3AAE-4BE4-B3C2-EA0314A8C665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DB2924-3AAE-4BE4-B3C2-EA0314A8C665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B097A317-FD20-4414-AC18-7F7588578924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B097A317-FD20-4414-AC18-7F7588578924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B097A317-FD20-4414-AC18-7F7588578924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B097A317-FD20-4414-AC18-7F7588578924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00A28D3-DE25-4C54-BE37-367CAA917CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00A28D3-DE25-4C54-BE37-367CAA917CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00A28D3-DE25-4C54-BE37-367CAA917CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00A28D3-DE25-4C54-BE37-367CAA917CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094B216F-C30B-46CA-B337-AD6F27AECA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094B216F-C30B-46CA-B337-AD6F27AECA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094B216F-C30B-46CA-B337-AD6F27AECA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094B216F-C30B-46CA-B337-AD6F27AECA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0269FCF-316A-4AD3-B04B-A2B75FD79A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0269FCF-316A-4AD3-B04B-A2B75FD79A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0269FCF-316A-4AD3-B04B-A2B75FD79A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0269FCF-316A-4AD3-B04B-A2B75FD79A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1220743-F376-42AF-A85D-0EBD0ACF5199}
+	EndGlobalSection
+EndGlobal
